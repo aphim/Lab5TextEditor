@@ -1,0 +1,116 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Text Editor
+</name>
+</assembly>
+<members>
+<member name="T:Text_Editor.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Text_Editor.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Text_Editor.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Text_Editor.frmTextEditor.frmTextEditor_Load(System.Object,System.EventArgs)">
+ <summary>
+ Functions that run on load of the program. 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Text_Editor.frmTextEditor.txtTextField_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ Sets the flag to true if changes were made in the textfield.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Text_Editor.frmTextEditor.mnuNew_Click(System.Object,System.EventArgs)">
+ <summary>
+ Function for the menu button "New"; creates a new blank document, clearing the existing data in the program and loses any changes not saved.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Text_Editor.frmTextEditor.mnuOpen_Click(System.Object,System.EventArgs)">
+ <summary>
+ Function for the menu button "Open"; opens a selection menu that allows the user to select a text file to open for editing.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Text_Editor.frmTextEditor.mnuSave_Click(System.Object,System.EventArgs)">
+ <summary>
+ Function for the menu button "Save"; saves the current data in the current file name. If a file name doesn't currently exist, it will prompt the user
+ to save under an existing file name or create new file name similar to the save as function.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Text_Editor.frmTextEditor.mnuSaveAs_Click(System.Object,System.EventArgs)">
+ <summary>
+ Function for the menu button "Save As"; opens a new window allowing the user to select an existing file or create a new file to save the current data in.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Text_Editor.frmTextEditor.mnuClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ Function for the menu button "Close"; empties the textfield, filename, and disables the current textfield textbox.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Text_Editor.frmTextEditor.mnuExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Function for the menu button "Exit"; exits the program.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Text_Editor.frmTextEditor.mnuCopy_Click(System.Object,System.EventArgs)">
+ <summary>
+ Function for the menu button "Copy"; copies the selected text into clipboard.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Text_Editor.frmTextEditor.mnuCut_Click(System.Object,System.EventArgs)">
+ <summary>
+ Function for the menu button "Cut"; cuts the selected text into clipboard.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Text_Editor.frmTextEditor.mnuPaste_Click(System.Object,System.EventArgs)">
+ <summary>
+ Function for the menu button "Paste"; pastes selections in the current clipboard into the textfield.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Text_Editor.frmTextEditor.mnuAbout_Click(System.Object,System.EventArgs)">
+ <summary>
+ Function for the menu button "About"; creates a messagebox to appear with information regarding the program.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Text_Editor.frmTextEditor.ConfirmClose">
+ <summary>
+ Function that checks if the page has been edited. If there are unsaved changes, messagebo appears for confirmation to leave the page.
+ </summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,11 @@
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\Text Editor\bin\Debug\Text Editor.exe.config
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\Text Editor\bin\Debug\Text Editor.exe
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\Text Editor\bin\Debug\Text Editor.pdb
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\Text Editor\bin\Debug\Text Editor.xml
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\Text Editor\obj\Debug\Text Editor.vbprojAssemblyReference.cache
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\Text Editor\obj\Debug\Text_Editor.frmTextEditor.resources
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\Text Editor\obj\Debug\Text_Editor.Resources.resources
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\Text Editor\obj\Debug\Text Editor.vbproj.GenerateResource.cache
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\Text Editor\obj\Debug\Text Editor.exe
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\Text Editor\obj\Debug\Text Editor.xml
+C:\Users\Jacky\Documents\Visual Studio 2019\repos\Text Editor\obj\Debug\Text Editor.pdb
